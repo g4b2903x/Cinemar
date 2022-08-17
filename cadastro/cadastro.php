@@ -41,7 +41,7 @@ include_once "mecanismo.php";
         <div class="row d-flex justify-content-center align-items-center vh-50">
             <div class="col-6">
                 <form action="" method="post">
-                    <div class="d-flex justify-content-center">
+                    <div class="d-flex justify-content-center mt-5">
                         <h1>Cadastro</h1>
                     </div>
                     <div class="form-floating mb-3">
@@ -65,11 +65,11 @@ include_once "mecanismo.php";
                         <label for="Csenha" class="form-label">Confirme sua Senha:</label><span class="text-danger"><?= $CsenhaErr ?></spam>
                     </div>
                     <div class="d-flex  mt-3">
-                        <button type="submit" class="btn btn-outline-danger w-75" name="submit">Cadastrar</button><small class="ml-2"><p> Já é membro? <a href="../login/login.php">Entre</a></p></small></div>
+                        <button type="submit" class="btn btn-outline-danger w-75" name="submit">Cadastrar</button><small class="ml-2"><p> Já é membro? <a href="../login/login.php">Entre</a></p></small>
                     </div>
                 </form>
                 <br>
-                <section class="d-flex justify-content-center mt-5"><img src="../IMAGENES/cinematela.jpg" width="700" height="250"> </section>
+                <section class="d-flex justify-content-center mt-5"><img src="../img/cinematela.jpg" width="700" height="250"> </section>
             </div>
         </div>
     </div>

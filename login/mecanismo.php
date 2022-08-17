@@ -41,24 +41,13 @@ if (isset($_POST["submit"])) {
             die("Connection failed: " . mysqli_connect_error());
         }
         // faz a verificação no banco como usuario sem admin
-        $sql = "SELECT nome, senha, admin FROM usuarios WHERE nome='$nome' and senha='$senha' and admin='n' ";
+        $sql = "SELECT nome_cli, senha_cli FROM tb_cliente WHERE nome_cli='$nome' and senha_cli='$senha'";
         $result = mysqli_query($conn, $sql);
 
         // restorna se tiver algo no banco 
         if (mysqli_num_rows($result) > 0) {
             //envia para o index.php
             header("location: ../index.php");
-        } else {
-            $nomeErr = " Usuario ou senha incorretos!";
-        }
-        // faz a verificação no banco como usuario com admin
-        $sql_admin = "SELECT nome, senha, admin FROM usuarios WHERE nome='$nome' and senha='$senha' and admin='s' ";
-        $result_admin = mysqli_query($conn, $sql_admin);
-
-        // restorna se tiver algo no banco 
-        if (mysqli_num_rows($result_admin) > 0) {
-            //envia para o admin.php
-            header("location: ../admin/admin.php");
         } else {
             $nomeErr = " Usuario ou senha incorretos!";
         }

@@ -15,7 +15,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 <div class="container-fluid">
-          <a class="navbar-brand fs-3" href="../index.php">Cinemar</a>
+          <a class="navbar-brand fs-3" href="index.php">Cinemar</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -32,23 +32,65 @@
             <div class="">
                 <a href="cadastro/cadastro.php" class="float-right"><button class="btn btn-outline-primary">Cadastrar-se</button></a>
             </div>
+            <div class="">
+                <a href="../login/login.php" class="float-right"><button class="btn btn-outline-primary ml-3">Login</button></a>
+            </div>
         </div>
       </nav>
 
 
-<div class="fundo">
+<!--<div class="fundo">
   <img src="img/cinema_no_mar.jpeg" >
-</div>
+</div> -->
  
+<div class='row mt-4'>
 
-<div class="card" style="width: 18rem;">
-  <img class="card-img-top" src="" alt="Imagem de capa do card">
+<div class="card col-3 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">CARD</h5>
     <p class="card-text">teste card</p>
     <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">tcc grátis</a>
   </div>
 </div>
+
+<div class="card col-6 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">CARD</h5>
+    <p class="card-text">teste card</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">tcc grátis</a>
+  </div>
+</div>
+
+<div class="card col-9 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">CARD</h5>
+    <p class="card-text">teste card</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">tcc grátis</a>
+  </div>
+</div>
+
+<div class="card col-12 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">CARD</h5>
+    <p class="card-text">teste card</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">tcc grátis</a>
+  </div>
+</div>
+
+<div class="card col-15 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">CARD</h5>
+    <p class="card-text">teste card</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">tcc grátis</a>
+  </div>
+</div>
+</div>
+
 </main>
 </body>
 </html>
