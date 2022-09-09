@@ -9,7 +9,7 @@
 
 //variavel principal
 $nome = $email = $senha = $Csenha = "";
-// variavel de erro'
+// variavel de erro
 $nomeErr = $emailErr = $senhaErr = $CsenhaErr = "";
 
 //verifica se o botão de entrar foi clicado
@@ -48,6 +48,17 @@ if (isset($_POST["submit"])) {
         if (mysqli_num_rows($result) > 0) {
             //envia para o index.php
             header("location: ../index.php");
+        } else {
+            $nomeErr = " Usuario ou senha incorretos!";
+        }
+        // faz a verificação no banco como usuario com admin
+        $sql_admin = "SELECT nome_cli, senha_cli, admin FROM tb_cliente WHERE nome_cli='$nome' and senha_cli='$senha' and admin='s' ";
+        $result_admin = mysqli_query($conn, $sql_admin);
+
+        // restorna se tiver algo no banco 
+        if (mysqli_num_rows($result_admin) > 0) {
+            //envia para o admin.php
+            header("location: ../admin/admin.php");
         } else {
             $nomeErr = " Usuario ou senha incorretos!";
         }
