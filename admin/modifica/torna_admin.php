@@ -12,7 +12,7 @@
     die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "UPDATE tb_cliente SET admin='s' WHERE id_cliente=$id";
+    $sql = "UPDATE tb_clientes SET admin='s' WHERE id_cliente=$id";
 
     if ($conn->query($sql) === TRUE) {
         header('Location: ../admin.php');
@@ -21,5 +21,3 @@
     }
 
     $conn->close();
-
-?>

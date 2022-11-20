@@ -22,16 +22,23 @@
        h5{
         text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
           1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
-          color: #000000; 
+          "color:black; 
           font-family:arial; 
           font-size:180%;
        }
        h6{
-          color:#fff; 
+        text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+          color:#000000; 
           font-family:arial; 
-          font-size:25px;
+          font-size:100%;
           text-align:left;
        }
+       .card {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        transition: 0.3s;
+        border-radius: 5px; /* 5px borda */
+        }
       </style>
   </head>
 <body>
@@ -72,70 +79,52 @@
             </div>
         </div>
       </nav>
-<div class='row mt-4'>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad1.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Your name</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad2.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Demon Slayer</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes2.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad3.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Jujutsu Kaisen</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes3.php" class="btn btn-danger">R$12,99</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad4.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Natsu e no tunnel</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes4.php" class="btn btn-danger">R$10,00</a>
-  </div>
-</div>
 <p>
-  
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad7.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Ironman</h5>
-    <p class="card-text">gênero: ação</p>
-    <a href="filmes pag/filmes5.php" class="btn btn-danger">R$4,99</a>
+      <div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">Contato do adm: (69) 4002-8922 </h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
+    </div>
+    <p>
+    <div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">Contato do adm2: (51) 4206-9024 </h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
+    </div>
+    <p>
+    <div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">Contato do adm3: (51) 4206-9024 </h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
+    </div>
+    <p>
+    <div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">Contato do adm4: (51) 4206-9024 </h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
+    </div>
+    <p>
+    <div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">Contato do adm5: (51) 4206-9024 </h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
+    </div>
+    <p>
+    <div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">Contato do adm6: (51) 4206-9024 </h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
+    </div>    
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <footer><h6>contato do cinema: (51) 4206-9024</footer> <!--inserir-->
+    <span style='font-size:50px;'></span>
   </div>
-</div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad5.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
-  </div>
-</div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad6.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
-  </div>
-</div>
-<p>
-
 </main>
 </body>
 </html>

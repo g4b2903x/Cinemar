@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cinemar</title>
-    <link rel="icon" type="image/x-icon" href="../img/cinemarIcon.png">
+    <link rel="icon" type="image/x-icon" href="../img/pog.gif">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
@@ -14,10 +14,10 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa" crossorigin="anonymous"></script>
     <style>
       body {
-        background-image: url("img/ku.gif");
-        background-repeat: no-repeat;
+        background-image: url("img/pog.gif");
+        background-repeat: repeat;
          background-attachment: fixed;
-         background-size: 100% 100%;
+         background-size: 30% 10%;
        }
        h5{
         text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
@@ -37,7 +37,7 @@
 <body>
 <nav class="navbar navbar-expand-lg bg-dark navbar-dark">
 <div class="container-fluid">
-          <a class="navbar-brand fs-3" href="index.php">Cinemar</a>
+          <a class="navbar-brand fs-3" href="index.php">Cinepoggers</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -50,6 +50,9 @@
                 <a class="dropdown-item" href="grongos.php">Cinepoggers <img src="img/pog.gif" width="25" height="25"></a>
                 </div>
             </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="filmes pag/filmes.php">Filmes</a>
+              </li>
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="contato.php">Contatos</a>
               </li>
@@ -72,70 +75,61 @@
             </div>
         </div>
       </nav>
+<!--<div class="fundo">
+  <img src="img/cinema_no_mar.jpeg" >
+</div> -->
+ 
 <div class='row mt-4'>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad1.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Your name</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
 
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad2.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Demon Slayer</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes2.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad3.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Jujutsu Kaisen</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes3.php" class="btn btn-danger">R$12,99</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad4.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Natsu e no tunnel</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes4.php" class="btn btn-danger">R$10,00</a>
-  </div>
-</div>
-<p>
-  
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad7.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Ironman</h5>
-    <p class="card-text">gênero: ação</p>
-    <a href="filmes pag/filmes5.php" class="btn btn-danger">R$4,99</a>
-  </div>
-</div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad5.jpeg" alt="Imagem de capa do card">
+<div class="card col-3 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
+    <p class="card-text">descrição</p>
+    <a href="#" class="btn btn-danger">preço</a>
   </div>
 </div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad6.jpeg" alt="Imagem de capa do card">
+
+<div class="card col-6 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
   <div class="card-body">
     <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
+    <p class="card-text">descrição</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">preço</a>
   </div>
 </div>
-<p>
 
+<div class="card col-9 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">nome do filme</h5>
+    <p class="card-text">descrição</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">preço</a>
+  </div>
+</div>
+
+<div class="card col-12 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">nome do filme</h5>
+    <p class="card-text">desc</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">preço</a>
+  </div>
+</div>
+<p>   
+<div class="card col-15 ml-3" style="width: 18rem;">
+  <img class="card-img-top" src="img/sapo.gif" alt="Imagem de capa do card">
+  <div class="card-body">
+    <h5 class="card-title">nome do filme</h5>
+    <p class="card-text">desc</p>
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">preço</a>
+  </div>
+</div>
+</div><p>
+                 <!--lembrar trocar link-->
+  <div class="w-100 p-3" style="background-color: #000000; opacity: 0.65">
+    <footer><h6>contato do cinema: (51) 4206-9024</footer> <!--inserir-->
+  </div>
 </main>
 </body>
 </html>

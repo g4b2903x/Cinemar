@@ -19,17 +19,22 @@
          background-attachment: fixed;
          background-size: 100% 100%;
        }
-       h5{
-        text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
-          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+       h4{
           color: #000000; 
           font-family:arial; 
-          font-size:180%;
+          font-size: 50px;
+       }
+       h5{
+          color: #000000; 
+          font-family:arial; 
+          font-size: 20px;
        }
        h6{
-          color:#fff; 
+        text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+          color:#000000; 
           font-family:arial; 
-          font-size:25px;
+          font-size:20px;
           text-align:left;
        }
       </style>
@@ -72,70 +77,32 @@
             </div>
         </div>
       </nav>
-<div class='row mt-4'>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad1.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Your name</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad2.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Demon Slayer</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes2.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad3.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Jujutsu Kaisen</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes3.php" class="btn btn-danger">R$12,99</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad4.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Natsu e no tunnel</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes4.php" class="btn btn-danger">R$10,00</a>
-  </div>
-</div>
 <p>
-  
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad7.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Ironman</h5>
-    <p class="card-text">gênero: ação</p>
-    <a href="filmes pag/filmes5.php" class="btn btn-danger">R$4,99</a>
+<div class="container-fluid text-center">    
+  <div class="row content">
+    <div class="col-sm-3 sidenav">
+       <p><img src="img/ad3.jpg" widght="300" height="300"><p><!--fonte: https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.garotasgeeks.com%2Fwp-content%2Fuploads%2F2017%2F09%2FYour-Name.jpg&imgrefurl=https%3A%2F%2Fwww.garotasgeeks.com%2F20-filmes-animados-recentes-que-todo-fa-de-anime-deveria-assistir%2F&tbnid=TolSmyTuWKthVM&vet=12ahUKEwig5474rrH7AhV0F7kGHTzcCOwQMygAegUIARC-AQ..i&docid=7URU4KTA1uDKhM&w=650&h=366&q=filme%20anime&client=opera-gx&ved=2ahUKEwig5474rrH7AhV0F7kGHTzcCOwQMygAegUIARC-AQ -->
+       <img src="img/ad1.png" widght="300" height="300"><!--fonte: https://www.google.com/imgres?imgurl=https%3A%2F%2Fbr.web.img3.acsta.net%2Fc_310_420%2Fpictures%2F21%2F10%2F27%2F11%2F49%2F5430171.jpg&imgrefurl=https%3A%2F%2Fwww.adorocinema.com%2Ffilmes%2Ffilme-291677%2F&tbnid=pnwVq8LUJA9UDM&vet=12ahUKEwig5474rrH7AhV0F7kGHTzcCOwQMyg7egQIARBW..i&docid=gJK2uQwT9erO0M&w=310&h=420&q=filme%20anime&client=opera-gx&ved=2ahUKEwig5474rrH7AhV0F7kGHTzcCOwQMyg7egQIARBW -->
+    </div>
+    <div class="col-sm-6 text-left"> 
+    <div class="w-100 p-3" style="background-color: #eee; opacity: 0.8">
+      <h4>Sobre nós</h4>
+      <h5><p> Nós somos uma empresa que vende sites para cinemas físicos. Nosso propósito é, para os funcionários do cinema, ajudar a administração do cinema através de um sistema com banco de dados e, para os clientes, a diminuição de filas e a facilidade de acesso a escolha dos filmes sem sair de casa!
+      </div> </div>
+    <div class="col-sm-3 sidenav">
+      <div class="well">
+        <p><img src="img/ad4.jpg" widght="300" height="300"><p><!-- fonte: https://www.google.com/imgres?imgurl=https%3A%2F%2Fptanime.com%2Fwp-content%2Fuploads%2F2021%2F12%2FNatsu-e-no-Tunnel-Sayonara-no-Deguchi-young-adult-novel-sci-fi-drama-capa-cover-jpn.jpg&imgrefurl=https%3A%2F%2Fwww.animesjapao.com%2F2021%2F12%2Fnatsu-e-no-tunnel-novel-sci-fi-recebe.html&tbnid=nuFfTrG1NuNH-M&vet=12ahUKEwjIwJntr7H7AhWiAtQKHc40BkgQMygIegUIARDUAQ..i&docid=j29ReSRn5h4dbM&w=600&h=856&itg=1&q=filme%20anime%20capa&client=opera-gx&ved=2ahUKEwjIwJntr7H7AhWiAtQKHc40BkgQMygIegUIARDUAQ -->
+      </div>
+      <div class="well">
+        <img src="img/ad2.png" widght="300" height="300"><!-- fonte: https://www.google.com/imgres?imgurl=https%3A%2F%2Flegadoplus.com.br%2Fwp-content%2Fuploads%2F2021%2F09%2FDemon-Slayer-Mugen-Train-new-poster.webp&imgrefurl=https%3A%2F%2Flegadoplus.com.br%2Fdemon-slayer-mugen-train-filme-de-kimetsu-no-yaiba-ganhara-versao-estendida-em-formato-de-anime%2F&tbnid=XsXrS9htg3vvmM&vet=10CBQQMyjAAmoXChMIuMnPqq-x-wIVAAAAAB0AAAAAEAU..i&docid=eQpAw8uAyqo54M&w=707&h=1000&q=filme%20anime&client=opera-gx&ved=0CBQQMyjAAmoXChMIuMnPqq-x-wIVAAAAAB0AAAAAEAU -->
+      </div>
+    </div>
   </div>
 </div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad5.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <footer><h6>contato do cinema: (51) 4206-9024</footer> <!--inserir-->
+    <span style='font-size:50px;'></span>
   </div>
-</div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad6.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
-  </div>
-</div>
-<p>
-
 </main>
 </body>
 </html>

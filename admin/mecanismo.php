@@ -20,7 +20,7 @@ function retorna()
         die("Connection failed: " . $conn->connect_error);
     }
 
-    $sql = "SELECT id_cliente, nome_cli, cpf_cli, email_cli, senha_cli, CASE WHEN admin='s' THEN 'SIM' ELSE 'NÃO' END AS admin_cli FROM tb_cliente";
+    $sql = "SELECT id_cliente, nome_cli, cpf_cli, email_cli, senha_cli, CASE WHEN admin='s' THEN 'SIM' ELSE 'NÃO' END AS admin_cli FROM tb_clientes";
     $result = $conn->query($sql);
 
     if ($result->num_rows > 0) {
@@ -30,19 +30,18 @@ function retorna()
             $nome = $row['nome_cli'];
             $email = $row['cpf_cli'];
             $email = $row['email_cli'];
-            $senha = $row['senha_cli'];
             $admin = $row['admin_cli'];
 
-            echo"
+            echo "
             <tr>
                 <th scope='row'>$id</th>
                 <td>$nome</td>
                 <td>$email</td>
-                <td>$senha</td>
                 <td>$admin</td>
                 <td><a href='modifica/tira_admin.php?id=$id'><button class='btn btn-outline-warning'>User</button></td>
                 <td><a href='modifica/torna_admin.php?id=$id'><button class='btn btn-outline-primary'>Admin</button></td>
-                <td><a href='modifica/exclui.php?id=$id'><button class='btn btn-outline-danger'>Exclui</button></td>
+                <td><a href='modifica/modifica_cliente.php?id=$id'><button class='btn btn-outline-warning'>Modifica</button></td>
+                <td><a href='modifica/exclui_cliente.php?id=$id'><button class='btn btn-outline-danger'>Exclui</button></td>
             </tr>";
         }
     } else {

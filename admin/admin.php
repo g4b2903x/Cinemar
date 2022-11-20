@@ -1,6 +1,10 @@
 <?php
+
+include "protect.php";
 include_once "mecanismo.php";
+
 ?>
+
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -37,24 +41,23 @@ include_once "mecanismo.php";
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
-            <a href="../index.php"><button class="btn btn-outline-danger mx-2">Sair</button></a>
+            <a href="logout.php"><button class="btn btn-outline-danger mx-2">Sair</button></a>
         </div>
     </nav>
     <div class="container">
-    <table class="table">
-  <thead>
-    <tr>
-      <th scope="col">id</th>
-      <th scope="col">nome</th>
-      <th scope="col">email</th>
-      <th scope="col">senha</th>
-      <th scope="col">admin</th>
-    </tr>
-  </thead>
-  <tbody>
-    <?= retorna() ?>
-  </tbody>
-</table>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">nome</th>
+                    <th scope="col">email</th>
+                    <th scope="col">admin</th>
+                </tr>
+            </thead>
+            <tbody>
+                <?= retorna() ?>
+            </tbody>
+        </table>
     </div>
 </body>
 

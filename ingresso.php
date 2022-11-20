@@ -19,19 +19,47 @@
          background-attachment: fixed;
          background-size: 100% 100%;
        }
-       h5{
-        text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
-          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+       h4{
           color: #000000; 
           font-family:arial; 
-          font-size:180%;
+          font-size: 50px;
+          text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+       }
+       h5{
+          color: #000000; 
+          font-family:arial; 
+          font-size: 20px;
+          text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
        }
        h6{
-          color:#fff; 
+          color:#000000;
           font-family:arial; 
           font-size:25px;
           text-align:left;
        }
+       h3{
+          color: #000000; 
+          font-family:arial; 
+          font-size: 20px;
+          text-shadow: 1px 0 #fff, -1px 0 #fff, 0 1px #fff, 0 -1px #fff,
+          1px 1px #fff, -1px -1px #fff, 1px -1px #fff, -1px 1px #fff;
+          text-align: justify;
+          text-justify: inter-word;
+       }
+       .button {
+        border: black;
+        border-style: solid;
+        border-radius: 12px;
+        text-align: center;
+        margin: 4px 2px;
+        transition-duration: 0.35s;
+        cursor: pointer;
+        background-color: red;
+        width:100px;
+        height: 100px;
+        }
       </style>
   </head>
 <body>
@@ -72,69 +100,13 @@
             </div>
         </div>
       </nav>
-<div class='row mt-4'>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad1.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Your name</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes.php" class="btn btn-danger">R$15,00</a>
-  </div>
-</div>
 
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad2.png" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Demon Slayer</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes2.php" class="btn btn-danger">R$15,00</a>
-  </div>
+<div class="card col-6 ml-3" style="width: 250rem;">
+         <div class="card">
+           <h5 class="card-title">inserir codigo para o assento da sessão</h5>
+           <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-danger">ligar</a>
+     </div>
 </div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad3.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Jujutsu Kaisen</h5>
-    <p class="card-text">gênero: shounen</p>
-    <a href="filmes pag/filmes3.php" class="btn btn-danger">R$12,99</a>
-  </div>
-</div>
-
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad4.jpg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Natsu e no tunnel</h5>
-    <p class="card-text">gênero: romance</p>
-    <a href="filmes pag/filmes4.php" class="btn btn-danger">R$10,00</a>
-  </div>
-</div>
-<p>
-  
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad7.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">Ironman</h5>
-    <p class="card-text">gênero: ação</p>
-    <a href="filmes pag/filmes5.php" class="btn btn-danger">R$4,99</a>
-  </div>
-</div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad5.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
-  </div>
-</div>
-<div class="card col-15 ml-3" style="width: 18rem;">
-  <img class="card-img-top" src="img/ad6.jpeg" alt="Imagem de capa do card">
-  <div class="card-body">
-    <h5 class="card-title">nome do filme</h5>
-    <p class="card-text">gênero</p>
-    <a href="filmes.php" class="btn btn-danger">preço</a>
-  </div>
-</div>
-<p>
 
 </main>
 </body>

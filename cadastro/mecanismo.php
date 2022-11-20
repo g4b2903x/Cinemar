@@ -13,7 +13,7 @@ $nome = $cpf = $email =  $senha = $Csenha = "";
 $nomeErr = $cpfErr = $emailErr = $senhaErr = $CsenhaErr = "";
 
 // verifica se o botão cadastrar foi clicado
-if(isset($_POST["submit"])){
+if (isset($_POST["submit"])) {
 
     //valida o compo nome
     if (empty($_POST["nome"])) {
@@ -32,9 +32,9 @@ if(isset($_POST["submit"])){
     //valida o campo cpf
     if (empty($_POST["cpf"])) {
         $cpfErr = " cpf obrigatório";
-    } elseif (strlen($_POST["cpf"]) !=11){
+    } elseif (strlen($_POST["cpf"]) != 11) {
         $cpfErr = "cpf inválido";
-    } elseif(!preg_match("/[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}/", $_POST["cpf"])){
+    } elseif (!preg_match("/[0-9]{3}\.?[0-9]{3}\.?[0-9]{3}\-?[0-9]{2}/", $_POST["cpf"])) {
         $cpfErr = "cpf inválido";
     } else {
         $cpf = $_POST["cpf"];
@@ -43,14 +43,14 @@ if(isset($_POST["submit"])){
 
     //valida o campo email
     if (empty($_POST["email"])) {
-        $emailErr = " Obrigatorio email!";
+        $emailErr = " Obrigatorio email";
     } elseif (!filter_var($_POST["email"], FILTER_VALIDATE_EMAIL)) {
-        $emailErr = "Email invalido!";
+        $emailErr = "Email invalido";
     } else {
         $email = $_POST["email"];
     }
 
- 
+
     //valida o campo senha
     if (empty($_POST["senha"])) {
         $senhaErr = " Senha obrigatoria!";
@@ -61,6 +61,7 @@ if(isset($_POST["submit"])){
     } else {
         $senha = $_POST["senha"];
     }
+
 
     //valida o campo confirmação de senha
     if (empty($_POST["Csenha"])) {
@@ -85,8 +86,8 @@ if(isset($_POST["submit"])){
             $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 
             //sql que insere no banco 
-            $sql = "INSERT INTO tb_cliente (nome_cli, cpf_cli, email_cli, senha_cli)
-            VALUES ('$nome', '$cpf', '$email', '$senha')";
+            $sql = "INSERT INTO tb_clientes (nome_cli, cpf_cli, email_cli, senha_cli, admin)
+            VALUES ('$nome', '$cpf', '$email', '$senha', 'n')";
 
             //executa o sql
             $conn->exec($sql);
@@ -99,5 +100,4 @@ if(isset($_POST["submit"])){
         //encerra a conexão
         $conn = null;
     }
-
 }
